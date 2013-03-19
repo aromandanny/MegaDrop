@@ -74,6 +74,14 @@ a { color: #666; text-decoration: none;}
 	.container-4 .col4 { width: 100% }
 
 
+	/* 5 Column */
+	.container-5 { width: 600px; }
+	.container-5 .col1 { width: 20%; }
+	.container-5 .col2 { width: 40% }
+	.container-5 .col3 { width: 60% }
+	.container-5 .col4 { width: 80% }
+	.container-5 .col5 { width: 100% }
+
 /* HIGHLIGHTS */
 
 .container-3 .highlighted { 
