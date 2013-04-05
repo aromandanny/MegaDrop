@@ -1,9 +1,8 @@
 $(function(){
 	$('.animated > li').hover(function(){
-		$(this).find('.container-4').stop().slideDown('fast');
+		$(this).find('div[class^="container-"]').stop().slideDown('fast');
 	},
 	function(){
-		$(this).find('.container-4').stop().slideUp('slow');
+		$(this).find('div[class^="container-"]').stop().slideUp('slow');
 	});
 });
-
